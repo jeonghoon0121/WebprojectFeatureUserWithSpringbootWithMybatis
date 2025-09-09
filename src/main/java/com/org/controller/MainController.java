@@ -12,5 +12,11 @@ public class MainController {
 
         return "main";
     }
+    @GetMapping("/hh")
+
+    public String hmain() {
+
+        return "main";
+    }
 
 }
